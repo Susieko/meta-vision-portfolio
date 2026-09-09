@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <rect width="512" height="512" rx="105" fill="#020B12"/>
+    <rect x="18" y="18" width="476" height="476" rx="88" fill="none" stroke="#17334A" stroke-width="6"/>
+    <circle cx="256" cy="256" r="174" fill="none" stroke="#125A91" stroke-width="6" stroke-dasharray="720 374" transform="rotate(18 256 256)" opacity=".9"/>
+    <circle cx="389" cy="152" r="13" fill="#2F9BF6"/>
+    <text x="256" y="326" fill="#F3F7FA" font-family="Georgia, 'Times New Roman', serif" font-size="220" font-weight="400" letter-spacing="-24" text-anchor="middle">SA</text>
+</svg>

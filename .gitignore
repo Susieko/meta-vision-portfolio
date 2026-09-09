@@ -1,0 +1,16 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local archives and logs
+*.zip
+*.7z
+*.rar
+*.log
+
+# WordPress/local environment files should not live in the theme repo
+wp-config.php
+.htaccess
+.git-old/
