@@ -24,21 +24,26 @@
     <!-- =====================================================
          PROJECT INFORMATION
          ===================================================== -->
+
     <div class="work-project">
 
-<div class="page-section-label">
-    <span>WERK</span>
-    <i aria-hidden="true"></i>
-</div>
+        <div class="page-section-label">
+            <span>WERK</span>
+            <i aria-hidden="true"></i>
+        </div>
 
 
         <div class="work-project__count">
             <strong>03</strong>
-            <span>/ 05</span>
+            <span>/ 07</span>
         </div>
 
 
-        <h1 class="work-project__title" aria-live="polite" aria-atomic="true">
+        <h1
+            class="work-project__title"
+            aria-live="polite"
+            aria-atomic="true"
+        >
             NoordgroeiT
         </h1>
 
@@ -72,9 +77,13 @@
 
             <a
                 class="work-project__case"
-                href="<?php echo esc_url(home_url('/noordgroeit/')); ?>"
+                href="<?php echo esc_url(
+                    home_url('/noordgroeit/')
+                ); ?>"
             >
-                <span class="work-project__action-label">Bekijk case</span>
+                <span class="work-project__action-label">
+                    Bekijk case
+                </span>
                 <span aria-hidden="true">→</span>
             </a>
 
@@ -85,7 +94,9 @@
                 rel="noopener noreferrer"
                 aria-label="Live site (opent in een nieuw tabblad)"
             >
-                <span class="work-project__action-label">Live site</span>
+                <span class="work-project__action-label">
+                    Live site
+                </span>
                 <span aria-hidden="true">↗</span>
             </a>
 
@@ -93,12 +104,14 @@
 
 
         <div class="work-project__note">
+
             <span aria-hidden="true"></span>
 
             <p>
                 Hier krijgt<br>
                 Noord vorm.
             </p>
+
         </div>
 
     </div>
@@ -107,14 +120,19 @@
     <!-- =====================================================
          DEVICE SHOWCASE
          ===================================================== -->
+
     <div class="work-devices">
 
         <!-- DESKTOP / LAPTOP -->
+
         <div class="work-laptop">
 
             <div class="work-laptop__screen">
 
-                <div class="work-laptop__camera" aria-hidden="true"></div>
+                <div
+                    class="work-laptop__camera"
+                    aria-hidden="true"
+                ></div>
 
                 <div class="work-laptop__viewport">
 
@@ -146,6 +164,7 @@
 
 
         <!-- MOBILE -->
+
         <div class="work-phone">
 
             <div class="work-phone__shell">
@@ -193,15 +212,21 @@
     <!-- =====================================================
          PROJECT ORBIT
          ===================================================== -->
+
     <div
         class="work-carousel"
         aria-label="Projectselectie"
         aria-describedby="work-carousel-instructions"
     >
 
-        <p id="work-carousel-instructions" class="sr-only">
-            Kies een project. Met de pijltoetsen links en rechts kun je tussen projecten wisselen wanneer een projectknop focus heeft.
+        <p
+            id="work-carousel-instructions"
+            class="sr-only"
+        >
+            Kies een project. Met de pijltoetsen links en rechts kun je
+            tussen projecten wisselen wanneer een projectknop focus heeft.
         </p>
+
 
         <div
             class="work-carousel__curve"
@@ -220,6 +245,8 @@
 
         <div class="work-carousel__projects">
 
+            <!-- 01 — EHBO -->
+
             <button
                 class="work-carousel__item work-carousel__item--1"
                 type="button"
@@ -228,6 +255,7 @@
             >
 
                 <span class="work-carousel__thumb">
+
                     <img
                         src="<?php echo esc_url(
                             get_template_directory_uri()
@@ -239,6 +267,7 @@
                         loading="lazy"
                         decoding="async"
                     >
+
                 </span>
 
                 <strong>EHBO</strong>
@@ -246,6 +275,8 @@
 
             </button>
 
+
+            <!-- 02 — CARTNIP -->
 
             <button
                 class="work-carousel__item work-carousel__item--2"
@@ -255,6 +286,7 @@
             >
 
                 <span class="work-carousel__thumb">
+
                     <img
                         src="<?php echo esc_url(
                             get_template_directory_uri()
@@ -266,6 +298,7 @@
                         loading="lazy"
                         decoding="async"
                     >
+
                 </span>
 
                 <strong>Cartnip</strong>
@@ -273,6 +306,8 @@
 
             </button>
 
+
+            <!-- 03 — NOORDGROEIT -->
 
             <button
                 class="
@@ -286,6 +321,7 @@
             >
 
                 <span class="work-carousel__thumb">
+
                     <img
                         src="<?php echo esc_url(
                             get_template_directory_uri()
@@ -297,6 +333,7 @@
                         loading="lazy"
                         decoding="async"
                     >
+
                 </span>
 
                 <strong>NoordgroeiT</strong>
@@ -305,14 +342,79 @@
             </button>
 
 
+            <!-- 04 — EVENTFLOW -->
+
             <button
                 class="work-carousel__item work-carousel__item--4"
+                type="button"
+                data-project="eventflow"
+                aria-pressed="false"
+            >
+
+                <span class="work-carousel__thumb">
+
+                    <img
+                        src="<?php echo esc_url(
+                            get_template_directory_uri()
+                            . '/assets/images/projects/eventflow-preview.png'
+                        ); ?>"
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                    >
+
+                </span>
+
+                <strong>EventFlow</strong>
+                <small>React app</small>
+
+            </button>
+
+
+            <!-- 05 — CLIENTBOARD -->
+
+            <button
+                class="work-carousel__item work-carousel__item--5"
+                type="button"
+                data-project="clientboard"
+                aria-pressed="false"
+            >
+
+                <span class="work-carousel__thumb">
+
+                    <img
+                        src="<?php echo esc_url(
+                            get_template_directory_uri()
+                            . '/assets/images/projects/clientboard-preview.png'
+                        ); ?>"
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                    >
+
+                </span>
+
+                <strong>Clientboard</strong>
+                <small>Laravel app</small>
+
+            </button>
+
+
+            <!-- 06 — EAA -->
+
+            <button
+                class="work-carousel__item work-carousel__item--6"
                 type="button"
                 data-project="eaa"
                 aria-pressed="false"
             >
 
-                <span class="work-carousel__thumb work-carousel__thumb--logo">
+                <span
+                    class="
+                        work-carousel__thumb
+                        work-carousel__thumb--logo
+                    "
+                >
                     EAA
                 </span>
 
@@ -322,14 +424,21 @@
             </button>
 
 
+            <!-- 07 — PORTFOLIO -->
+
             <button
-                class="work-carousel__item work-carousel__item--5"
+                class="work-carousel__item work-carousel__item--7"
                 type="button"
                 data-project="portfolio"
                 aria-pressed="false"
             >
 
-                <span class="work-carousel__thumb work-carousel__thumb--logo">
+                <span
+                    class="
+                        work-carousel__thumb
+                        work-carousel__thumb--logo
+                    "
+                >
                     SA
                 </span>
 

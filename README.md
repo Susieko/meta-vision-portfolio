@@ -6,6 +6,19 @@ Meta Vision combines visual design, frontend development, interaction and motion
 
 ![Meta Vision portfolio](assets/images/work/portfolio-desktop.webp)
 
+## Stack
+
+- WordPress
+- PHP
+- CSS
+- JavaScript
+- React
+- TypeScript
+- Tailwind CSS
+- Laravel
+- MySQL
+- Git
+
 ## Built with
 
 - WordPress
@@ -87,37 +100,14 @@ Lighthouse results can vary depending on environment and hosting.
 - Bilingual Dutch / English setup
 - No required frontend build process
 
-## Selected projects
+## Selected case studies
 
-### NoordgroeiT
-
-Website redesign for a community organization in Tilburg-Noord.
-
-Focus areas:
-
-- WordPress development
-- information architecture
-- responsive design
-- UI / UX
-- accessibility
-
-### EHBO Petrus Donders
-
-Redesign of an EHBO association website with an emphasis on clarity and accessibility.
-
-### Cartnip
-
-A WooCommerce concept focused on cat wellbeing, combining e-commerce with educational content and playful branding.
-
-### Initiatief EAA
-
-An information platform for explaining complex local energy topics to residents.
-
-Currently in development.
-
-### Meta Vision
-
-This portfolio itself is also included as a case study, documenting the visual and technical decisions behind the project.
+- Cartnip — WooCommerce storefront concept
+- KLABEN Autos — automotive UX/UI concept
+- NoordgroeiT — community WordPress platform
+- EHBO Petrus Donders — website redesign
+- EventFlow — React and TypeScript event discovery app
+- Clientboard — Laravel client and project management dashboard
 
 ## Theme structure
 
@@ -144,4 +134,4 @@ page-noordgroeit.php
 page-over-mij.php
 page-privacy.php
 page-werk.php
-style.css
+style.css   

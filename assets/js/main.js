@@ -1012,6 +1012,83 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Live site"
         },
 
+                eventflow: {
+            title: "EventFlow",
+            type: "Event discovery app",
+
+            description:
+                "Een responsive event discovery app voor conventions, fantasy fairs, gaming, cosplay en collectibles, gebouwd met een moderne component-based front-end stack.",
+
+            tags: [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Vite",
+                "Motion",
+                "Responsive"
+            ],
+
+            desktop:
+                "assets/images/projects/eventflow-preview.png",
+
+            mobile:
+                "assets/images/projects/eventflow-mobile.png",
+
+            note:
+                "Find your next\nadventure.",
+
+            caseUrl:
+                new URL("eventflow/", siteUrl).href,
+
+            caseLabel:
+                "Bekijk case",
+
+            liveUrl:
+                "https://eventflow-gamma-eight.vercel.app/",
+
+            liveLabel:
+                "Live demo"
+        },
+
+
+        clientboard: {
+            title: "Clientboard",
+            type: "Client & project dashboard",
+
+            description:
+                "Een speels projectmanagement-dashboard voor klanten, projecten, deadlines en voortgang, gebouwd als mijn eerste grotere Laravel-applicatie.",
+
+            tags: [
+                "Laravel",
+                "PHP",
+                "Blade",
+                "JavaScript",
+                "Tailwind CSS",
+                "MySQL"
+            ],
+
+            desktop:
+                "assets/images/projects/clientboard-preview.png",
+
+            mobile:
+                "assets/images/projects/clientboard-mobile.png",
+
+            note:
+                "Projects under\ncontrol.",
+
+            caseUrl:
+                new URL("clientboard/", siteUrl).href,
+
+            caseLabel:
+                "Bekijk case",
+
+            liveUrl:
+                "https://github.com/Susieko/clientboard",
+
+            liveLabel:
+                "GitHub"
+        },
+
 
         eaa: {
             title: "Initiatief EAA",
@@ -1249,11 +1326,30 @@ document.addEventListener("DOMContentLoaded", () => {
                 const slot =
                     slots[slotIndex];
 
-
                 if (!slot) {
+
+                    item.style.opacity = "0";
+                    item.style.pointerEvents = "none";
+                    item.style.zIndex = "0";
+
+                    item.setAttribute(
+                        "aria-hidden",
+                        "true"
+                    );
+
+                    item.tabIndex = -1;
+
                     return;
                 }
 
+
+                item.style.pointerEvents = "";
+
+                item.removeAttribute(
+                    "aria-hidden"
+                );
+
+                item.tabIndex = 0;
 
                 item.style.left =
                     `${slot.left}%`;
@@ -1392,8 +1488,13 @@ function setImage(
     };
 
 
+    const imagePath =
+        file.includes("/")
+            ? file
+            : `assets/images/work/${file}`;
+
     image.src =
-        `${themeUri}/assets/images/work/${file}`;
+        `${themeUri}/${imagePath}`;
 
 }
 
