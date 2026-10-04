@@ -6,7 +6,7 @@ Meta Vision combines visual design, frontend development, interaction and motion
 
 ![Meta Vision portfolio](assets/images/work/portfolio-desktop.webp)
 
-## Stack
+## Technologies represented in my work
 
 - WordPress
 - PHP
