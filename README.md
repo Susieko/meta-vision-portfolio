@@ -103,7 +103,6 @@ Lighthouse results can vary depending on environment and hosting.
 ## Selected case studies
 
 - Cartnip — WooCommerce storefront concept
-- KLABEN Autos — automotive UX/UI concept
 - NoordgroeiT — community WordPress platform
 - EHBO Petrus Donders — website redesign
 - EventFlow — React and TypeScript event discovery app
